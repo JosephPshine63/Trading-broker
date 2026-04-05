@@ -7,6 +7,7 @@ import lombok.Data;
 import java.time.LocalDate;
 
 @Entity
+@Table(name = "wallet_transaction")
 @Data
 public class WalletTransaction {
 
@@ -29,3 +30,4 @@ public class WalletTransaction {
 
 
 }
+

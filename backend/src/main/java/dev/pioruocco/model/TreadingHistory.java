@@ -6,6 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
+@Table(name = "treading_history")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -25,3 +26,4 @@ public class TreadingHistory {
     @ManyToOne
     private User user;
 }
+

@@ -7,6 +7,7 @@ import jakarta.persistence.OneToOne;
 import lombok.Data;
 
 @Entity
+@Table(name = "forgot_password_token")
 @Data
 public class ForgotPasswordToken {
     @Id
@@ -21,3 +22,4 @@ public class ForgotPasswordToken {
 
     private String sendTo;
 }
+

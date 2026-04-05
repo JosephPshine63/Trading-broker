@@ -8,6 +8,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
+@Table(name = "payment_order")
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
@@ -26,3 +27,4 @@ public class PaymentOrder {
     @ManyToOne
     private User user;
 }
+

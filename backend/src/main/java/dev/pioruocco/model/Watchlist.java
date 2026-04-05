@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
+@Table(name = "watchlist")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -24,3 +25,4 @@ public class Watchlist {
     @ManyToMany
     private List<Coin> coins = new ArrayList<>();
 }
+

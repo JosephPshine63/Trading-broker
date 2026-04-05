@@ -8,6 +8,7 @@ import lombok.Data;
 
 @Data
 @Entity
+@Table(name = "two_factor_otp")
 public class TwoFactorOTP {
     @Id
     private String id;
@@ -23,3 +24,4 @@ public class TwoFactorOTP {
 
 
 }
+

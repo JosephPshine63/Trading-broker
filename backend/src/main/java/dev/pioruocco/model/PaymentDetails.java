@@ -5,6 +5,7 @@ import jakarta.persistence.*;
 import lombok.Data;
 
 @Entity
+@Table(name = "payment_details")
 @Data
 public class PaymentDetails {
 
@@ -25,3 +26,4 @@ public class PaymentDetails {
     private User user;
 
 }
+

@@ -10,6 +10,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
+@Table(name = "order_item")
 public class OrderItem {
 
     @Id
@@ -30,3 +31,4 @@ public class OrderItem {
     private Order order;
 
 }
+

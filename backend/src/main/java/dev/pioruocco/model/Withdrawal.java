@@ -7,6 +7,7 @@ import lombok.Data;
 import java.time.LocalDateTime;
 
 @Entity
+@Table(name = "withdrawal")
 @Data
 public class Withdrawal {
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -22,3 +23,4 @@ public class Withdrawal {
 
     private LocalDateTime date;
 }
+

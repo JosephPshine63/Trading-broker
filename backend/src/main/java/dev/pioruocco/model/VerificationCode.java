@@ -5,6 +5,7 @@ import jakarta.persistence.*;
 import lombok.Data;
 
 @Entity
+@Table(name = "verification_code")
 @Data
 public class VerificationCode {
 
@@ -24,3 +25,4 @@ public class VerificationCode {
     private VerificationType verificationType;
 
 }
+
